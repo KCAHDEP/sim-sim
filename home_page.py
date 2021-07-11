@@ -1189,14 +1189,14 @@ home_page = u"""<!DOCTYPE html>
 </head>
 
 <a href="/" title="На главную страницу">%%host%%</a>
-<p class="copyright"><em>Интернет без цензуры</em></p>
+<p class="copyright"><em>Интернет без цензуры, свободу поросятам!</em></p>
 <header id="header">
-<h1>Обход блокировок</h1>
+<h1>Обход блокировок специально для Dunbar</h1>
 <p>Простой и удобный способ открыть вебсайт или конкретную заблокированную страницу.<br>
 Просто введите URL-адрес и нажмите на кнопку. Сайт откроется в новом окне.</p>
 </header>
 <form id="razblokirovat" method="post" action="/" target="_blank" rel="nofollow noopener" novalidate>
-<input type="url" name="url" id="sajt" value="%%url%%" placeholder="Введите адрес сайта. Например: kinozal.tv">
+<input type="url" name="url" id="sajt" value="%%url%%" placeholder="Введите адрес сайта. Например: lostfilm.tv">
 <input type="hidden" name="token" value="%%token%%">
 <br>
 <input type="submit" value="разблокировать сайт">
